@@ -9,4 +9,4 @@ client.queue = new Map();
 require(`./handlers/commands`)(client);
 require(`./handlers/events`)(client);
 
-client.login(process.env.TOKEN);
+client.login(ODY5MDkwMTQ5ODg2MjAxODg2.YP5JRg.V9fLGK6yEUep08YDZtL_6Waawt8);
