@@ -87,10 +87,8 @@ const video_player = async (guild, song) => {
   let timeoutID;
   //If no song is left in the server client.queue. Leave the voice channel and delete the key and value pair from the global client.queue.
   if (!song) {
-    setTimeout(() => {
       song_queue.voice_channel.leave();
       cl.queue.delete(guild.id);
-    }, 5 * 60000);
   } else {
     clearTimeout(timeoutID);
     const stream = ytdl(song.url, { filter: "audioonly" });
