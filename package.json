@@ -17,4 +17,7 @@
     "yt-search": "^2.9.0",
     "ytdl-core": "^4.9.0"
   }
+  "engines": {
+    "node": "14.17.3"
+  }
 }
